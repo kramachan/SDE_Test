@@ -8,6 +8,21 @@ Install required packages using requirements.txt
 
 Execute the pipeline
 
+# Step 3: Result
+
+1. Output Folder generated csv Files
+2. Logs Folder Generated execution logs
+
+# .py Files
+
+config.py -> Configuration
+logger.py -> Logging
+extract_load.py -> Extract from API, filter 2012 to 2016 and Combine dataset
+validate.py -> all validation
+transformation.py -> Resale Identifier and hashing
+pipeline.py -> Running pipeline
+
+
 # Description
 
 This project implements an end-to-end **Extract, Transform, and Load (ETL)** pipeline for processing **HDB resale flat transaction datasets** obtained from the Singapore Government Open Data portal (data.gov.sg).
