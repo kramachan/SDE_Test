@@ -1,0 +1,26 @@
+2026-07-20 04:35:28 | INFO     | Source.config        | Config Started
+2026-07-20 04:35:28 | INFO     | Source.config        | Config Ended
+2026-07-20 04:35:28 | INFO     | Source.extract_load  | Extract Load Started
+2026-07-20 04:35:28 | INFO     | Source.extract_load  | For each Load Started
+2026-07-20 04:35:28 | INFO     | Source.extract_load  | DownLoad  Dataset Started
+2026-07-20 04:35:28 | INFO     | Source.extract_load  | normalize_column_names Started
+2026-07-20 04:35:28 | INFO     | Source.extract_load  | filter_by_month_range Started
+2026-07-20 04:35:28 | INFO     | Source.extract_load  | save raw files
+2026-07-20 04:35:28 | INFO     | Source.extract_load  | combine_raw_datasets files
+2026-07-20 04:35:28 | INFO     | Source.extract_load  | Extraction Load Ended
+2026-07-20 04:35:28 | INFO     | Source.validate      | Validate Started
+2026-07-20 04:35:28 | INFO     | Source.validate      | Perform Data Profiling on the dataset Started
+2026-07-20 04:35:28 | INFO     | Source.validate      | Validate the following fields (i.e. Date, Town, Flat Type, FlatModel, storey_range) 
+2026-07-20 04:35:28 | INFO     | Source.validate      | compute_remaining_lease Started 
+2026-07-20 04:35:28 | INFO     | Source.validate      | Apply validation logic  
+2026-07-20 04:35:28 | INFO     | Source.validate      | Find detect_price_anomalies Started 
+2026-07-20 04:35:28 | INFO     | Source.validate      | Find deduplicate_composite_key Started 
+2026-07-20 04:35:28 | INFO     | Source.validate      | Execute full data quality pipeline
+2026-07-20 04:35:28 | INFO     | Source.validate      | Validation Ended
+2026-07-20 04:35:28 | INFO     | Source.transformation | transformation Started
+2026-07-20 04:35:28 | INFO     | Source.transformation | Resale Identifier generation Started
+2026-07-20 04:35:28 | INFO     | Source.transformation | build_resale_identifier Started
+2026-07-20 04:35:28 | INFO     | Source.transformation | hash_identifier Started
+2026-07-20 04:35:28 | INFO     | Source.transformation | transform_dataset Started
+2026-07-20 04:35:28 | INFO     | Source.transformation | transformation Ended
+2026-07-20 04:35:28 | INFO     | __main__             | Running Pipeline Started

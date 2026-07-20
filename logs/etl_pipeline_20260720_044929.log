@@ -1,0 +1,10 @@
+2026-07-20 04:49:29 | INFO     | __main__             | Extract Load Started
+2026-07-20 04:49:29 | INFO     | Source.config        | Config Started
+2026-07-20 04:49:29 | INFO     | Source.config        | Config Ended
+2026-07-20 04:49:29 | INFO     | __main__             | For each Load Started
+2026-07-20 04:49:29 | INFO     | __main__             | DownLoad  Dataset Started
+2026-07-20 04:49:29 | INFO     | __main__             | normalize_column_names Started
+2026-07-20 04:49:29 | INFO     | __main__             | filter_by_month_range Started
+2026-07-20 04:49:29 | INFO     | __main__             | save raw files
+2026-07-20 04:49:29 | INFO     | __main__             | combine_raw_datasets files
+2026-07-20 04:49:29 | INFO     | __main__             | Extraction Load Ended
